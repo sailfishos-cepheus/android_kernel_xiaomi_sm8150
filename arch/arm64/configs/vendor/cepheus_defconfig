@@ -861,3 +861,8 @@ CONFIG_BT_HCIVHCI=y
 
 CONFIG_MODULES=y
 CONFIG_QCA_CLD_WLAN=m
+
+# hybris binder interfaces
+CONFIG_ANDROID_BINDER_DEVICES="binder,vndbinder,hwbinder,puddlejumper,vndpuddlejumper,hwpuddlejumper"
+CONFIG_CGROUP_SCHEDTUNE=y
+CONFIG_NETFILTER_XT_TARGET_CHECKSUM=y
